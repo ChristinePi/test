@@ -1,0 +1,110 @@
+body
+{
+    FONT-FAMILY: Sans serif;	
+    font-size: 9px
+}
+
+h1
+{
+    FONT-SIZE: 22px;
+    margin-top:2px; 
+    margin-left: 2px; 
+}
+
+h3
+{
+    FONT-SIZE: 16px;
+    margin-top:1px; 
+    margin-left: 1px; 
+}
+
+li { 
+    margin: 0 0 0 0;   
+}
+
+ul { 
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0; 
+    padding-left: 2.0em;
+}
+
+.page
+{
+    page-break-after: always;
+}
+
+.lastPage
+{
+    page-break-after: avoid;
+}
+
+.headingCell
+{
+    border-color: #dfdfdf;
+    border-style: solid;
+    background-color: #eeeeee;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    white-space: NOWRAP;
+}
+
+.tableCell
+{
+    border-style: solid;
+    border-color: #dfdfdf;
+    color: #000000;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: right;
+    white-space: NOWRAP;
+}
+
+.allCells
+{
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+    white-space: NOWRAP;
+    border-color: #f0f0f0; 
+    border-style: solid;
+    border-top-width: 0px; 
+    border-bottom-width: 1px; 
+    border-left-width: 0px; 
+    border-right-width: 0px; 
+}
+
+/* .imageCell is a copy of .allCells, except that text-overflow is not included. This is used for image cells. 
+   Firefox 8 will insert ellipsis even if the cell contains an image and the image will not be visible if it's larger than the containing div. */
+.imageCell
+{
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    overflow: hidden;
+    text-align: right;
+    white-space: NOWRAP;
+    border-color: #f0f0f0; 
+    border-style: solid;
+    border-top-width: 0px; 
+    border-bottom-width: 1px; 
+    border-left-width: 0px; 
+    border-right-width: 0px; 
+}
+
+.columnHeader
+{
+    font-weight: bold;
+    text-align: right;
+    border-right-width: 1px;
+}
